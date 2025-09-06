@@ -252,3 +252,43 @@
 // );
 
 // table.tBodies[0].append(...sortedRows);
+
+// let btn = document.querySelector(".btn");
+// let styles = getComputedStyle(btn);
+// console.log(styles.background);
+// console.log(styles.color);
+// console.log(styles.borderRadius);
+
+// ==========================================
+// function showNotification({ top = 0, right = 0, html, className }) {
+//   let element = document.createElement("div");
+//   element.className = "notification";
+//   if (className) {
+//     element.classList.add(className);
+//   }
+//   element.style.position = "absolute";
+//   element.style.top = top + "px";
+//   element.style.right = right + "px";
+//   element.innerHTML = html;
+//   document.body.append(element);
+//   element.style.border = "2px, solid, red";
+//   element.style.background = "red";
+//   element.style.color = "yellow";
+//   element.style.height = "50px";
+//   element.style.width = "60px";
+//   element.style.alignContent = "center";
+//   element.style.textAlign = "center";
+
+//   setTimeout(() => element.remove(), 1000);
+// }
+
+// let i = 1;
+// setInterval(() => {
+//   showNotification({
+//     top: 15,
+//     right: 15,
+//     html: "Hello " + i++,
+//     className: "welcome",
+//   });
+// }, 1000);
+// ==========================================
